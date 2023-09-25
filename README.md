@@ -24,5 +24,3 @@ cd frontend
 npm install
 npm run start
 ```
-
-## live url - https://medsurplus-frontend.onrender.com
