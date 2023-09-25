@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --backgroundColor: #645cbb;
+  --themecolor: #3b8183;
+  --lightBlue: #7286d3;
+  --cardColor: #fefbf6;
+  --textcolorHome: rgb(255, 255, 255);
+  --homethemecolor: linear-gradient(
+    to right,
+    #66d3e6,
+    #61ccea,
+    #63c5ed,
+    #6abdee,
+    #75b4ed,
+    #71b8f1,
+    #6dbbf4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+button {
+  cursor: pointer;
+}
